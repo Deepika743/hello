@@ -1,0 +1,5 @@
+sentence = "This is a sample sentence."
+words = sentence.split()  # Splits the sentence into a list of words
+joined_sentence = " ".join(words)  # Joins the words into a sentence
+print("Split words:", words)
+print("Joined sentence:", joined_sentence)
